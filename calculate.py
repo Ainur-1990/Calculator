@@ -651,7 +651,7 @@ def feedback_command(update: Update, context: CallbackContext):
 def main():
     """Start the bot."""
     # Get the token from environment variables or use a default one for development
-    TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "ВАШ_НОВЫЙ_ТОКЕН_БОТА")
+    TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 
     # Create the Updater and pass it your bot's token
     updater = Updater(TOKEN)
