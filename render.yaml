@@ -5,5 +5,5 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python calculate.py
     envVars:
-      - key:7151952822:AAGAH4VP5fcIeKpBr47lfzFhhOrfdGqaUJM
+  - key:7151952822:AAGAH4VP5fcIeKpBr47lfzFhhOrfdGqaUJM
     sync: false
