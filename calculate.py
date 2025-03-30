@@ -603,7 +603,7 @@ def help_command(update: Update, context: CallbackContext):
 def main():
     """Start the bot."""
     # Get the token from environment variables or use a default one for development
-    TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN","TELEGRAM_BOT_TOKEN")
+    TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN","7151952822:AAFw_5hivRwHnchYDChApEYQrJC6SzYFNjc")
 
     # Create the Updater and pass it your bot's token
     updater = Updater(TOKEN)
