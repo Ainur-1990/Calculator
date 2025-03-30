@@ -2,7 +2,7 @@ services:
   - type: worker
     name: telegram-bot
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -r render-requirements.txt
     startCommand: python calculate.py
     envVars:
       - key:7151952822:AAFw_5hivRwHnchYDChApEYQrJC6SzYFNjc
