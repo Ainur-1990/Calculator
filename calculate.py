@@ -677,7 +677,7 @@ def main():
     dispatcher.add_error_handler(error_handler)
 
     # Start the Bot
-    updater.start_polling()
+    updater.start_polling(drop_pending_updates=True)
 
     # Run the bot until you press Ctrl-C
     updater.idle()
